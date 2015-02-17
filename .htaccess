@@ -2,4 +2,8 @@
    RewriteEngine on
    RewriteRule    ^$ app/webroot/    [L]
    RewriteRule    (.*) app/webroot/$1 [L]
+<<<<<<< HEAD
 </IfModule>
+=======
+</IfModule>
+>>>>>>> c14bc2aa5a169c1d31bbd11a95a595b8c4b2e389
