@@ -1,0 +1,12 @@
+2015-02-17 11:18:09 Error: [MissingActionException] Action AppController::index.php() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index.php',
+)
+Request URL: /app/index.php
+Stack Trace:
+#0 /Git/CE/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Git/CE/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /Git/CE/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Git/CE/app/index.php(17): require('/Git/CE/app/web...')
+#4 {main}
