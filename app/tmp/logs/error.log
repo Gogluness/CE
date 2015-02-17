@@ -105,3 +105,12 @@ Request URL: /ProjetFinal/CE/css/cake.generic.css
 Stack Trace:
 #0 /website/html/ProjetFinal/CE/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-02-17 15:28:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /ProjetFinal/CE/css/cake.generic.css
+Stack Trace:
+#0 /website/html/ProjetFinal/CE/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
