@@ -1,9 +1,0 @@
-<IfModule mod_rewrite.c>
-   RewriteEngine on
-   RewriteRule    ^$    webroot/    [L]
-   RewriteRule    (.*) webroot/$1    [L]
-<<<<<<< HEAD
-</IfModule>
-=======
-</IfModule>
->>>>>>> c14bc2aa5a169c1d31bbd11a95a595b8c4b2e389
